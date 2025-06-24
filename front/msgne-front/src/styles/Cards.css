@@ -1,0 +1,59 @@
+.msg-row {
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.msg-col {
+  padding: 1.1rem 0;
+}
+
+.nomes {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.card-author {
+  font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  text-transform: capitalize;
+}
+
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 0;
+  padding: 1rem 0.5rem;
+
+  text-transform: capitalize;
+}
+
+.mensagem-div {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 600px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  text-indent: 0.5rem;
+  text-align: justify;
+
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.4);
+
+  padding: 1rem;
+
+  background-color: rgb(206, 206, 32);
+}
+
+.card-text{
+    text-decoration: underline;
+    font-family:cursive;
+}
