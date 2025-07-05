@@ -9,7 +9,7 @@ import fs from 'fs'
 
 
 const corsOptions = {
-  origin: "https://cartas-nao-enviadas-1.onrender.com/", // Substitua pelos domínios permitidos
+  origin: "https://cartas-nao-enviadas-1.onrender.com", // Substitua pelos domínios permitidos
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
   optionsSuccessStatus: 204,
