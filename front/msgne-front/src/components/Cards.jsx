@@ -9,7 +9,7 @@ function Cards(nome) {
   useEffect(() => {
     async function getMsg() {
       try {
-        const response = await fetch(`http://localhost:3000/nome/${nome}`);
+        const response = await fetch(`https://cartas-nao-enviadas.onrender.com/nome/${nome}`);
         const data = await response.json()
 
         setMsg(data)

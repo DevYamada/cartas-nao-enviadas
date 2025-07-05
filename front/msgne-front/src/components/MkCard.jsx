@@ -25,7 +25,7 @@ function MkCard() {
       return
     }
 
-    const res = await fetch("http://localhost:3000/mandarcarta", {
+    const res = await fetch("https://cartas-nao-enviadas.onrender.com/mandarcarta", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

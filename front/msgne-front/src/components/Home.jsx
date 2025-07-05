@@ -8,7 +8,7 @@ function Home(){
 
     useEffect(() => {
         async function quantidade(){
-            const res = await fetch("http://localhost:3000")
+            const res = await fetch("https://cartas-nao-enviadas.onrender.com")
             
             setQuantidade(res.length)
             console.log(res)
